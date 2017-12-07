@@ -1,0 +1,24 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# expo
+.expo/
+app.json
+
+# dependencies
+/node_modules
+shrinkwrap.yaml
+package-lock.json
+
+# misc
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.watchmanconfig
+
+# vscode
+.vscode
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
