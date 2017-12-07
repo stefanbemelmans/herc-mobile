@@ -35,7 +35,8 @@
     "storybook": "storybook start -p 7007",
     "lint": "eslint . --fix",
     "format": "prettier-std --write '**/*.js'",
-    "postinstall": "rndebugger-open --expo"
+    "postinstall": "rndebugger-open --expo",
+    "debug": "rndebugger-open --expo"
   },
   "jest": {
     "preset": "jest-expo"
