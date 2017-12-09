@@ -1,0 +1,44 @@
+{
+  "name": "herc-mobile",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "@storybook/addon-actions": "^3.2.17",
+    "@storybook/addon-links": "^3.2.17",
+    "@storybook/react-native": "^3.2.17",
+    "concurrently": "^3.5.1",
+    "eslint": "^4.12.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-react": "^7.5.1",
+    "eslint-plugin-react-native": "^3.2.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "jest-expo": "23.0.0",
+    "prettier-eslint": "^8.2.5",
+    "prop-types": "^15.6.0",
+    "react-dom": "16.0.0",
+    "react-native-scripts": "1.8.1",
+    "react-test-renderer": "16.0.0"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "node node_modules/jest/bin/jest.js --watch",
+    "storybook": "concurrently --kill-others \"storybook start -p 19000\" \"yarn run start\""
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "expo": "^23.0.4",
+    "react": "16.0.0",
+    "react-native": "0.50.3",
+    "react-native-tableview-simple": "^0.17.1",
+    "styled-components": "^2.2.4"
+  }
+}
